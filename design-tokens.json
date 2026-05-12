@@ -1,0 +1,72 @@
+{
+  "_comment": "Example design tokens. Replace with your own brand tokens before running the workflow. Keep this structure (brand, colors, typography, spacing, radius, shadow, motion, layout) so the skill's references work.",
+  "brand": {
+    "name": "YOUR_BRAND",
+    "voice": "founder, not marketer. direct, concrete, no rhetorical flourishes.",
+    "aesthetic": "describe in one line — e.g. dark tech, professional, editorial, brutalist"
+  },
+  "colors": {
+    "bg_primary": "#030305",
+    "bg_surface": "#0a0a0f",
+    "bg_elevated": "#11111c",
+    "border_subtle": "rgba(255,255,255,0.08)",
+    "border_strong": "rgba(255,255,255,0.16)",
+    "text_primary": "#f5f5f7",
+    "text_secondary": "#a1a1aa",
+    "text_tertiary": "#71717a",
+    "accent_primary": "#d4ff4a",
+    "accent_primary_dim": "rgba(212,255,74,0.12)",
+    "accent_warm": "#ff7849",
+    "semantic_success": "#22c55e",
+    "semantic_error": "#ef4444"
+  },
+  "typography": {
+    "display_family": "Inter Tight, Inter, system-ui",
+    "body_family": "Inter, system-ui",
+    "mono_family": "JetBrains Mono, ui-monospace",
+    "scale": {
+      "display_xl": { "size": "72px", "lh": "1.05", "weight": 600, "tracking": "-0.03em" },
+      "display_lg": { "size": "56px", "lh": "1.08", "weight": 600, "tracking": "-0.025em" },
+      "display_md": { "size": "40px", "lh": "1.15", "weight": 600, "tracking": "-0.02em" },
+      "heading": { "size": "28px", "lh": "1.25", "weight": 600, "tracking": "-0.01em" },
+      "body_lg": { "size": "20px", "lh": "1.5", "weight": 400 },
+      "body": { "size": "17px", "lh": "1.6", "weight": 400 },
+      "body_sm": { "size": "15px", "lh": "1.5", "weight": 400 },
+      "label": { "size": "13px", "lh": "1.4", "weight": 500, "tracking": "0.04em", "transform": "uppercase" }
+    }
+  },
+  "spacing": {
+    "grid": 8,
+    "section_padding_y": "128px",
+    "section_padding_x_desktop": "64px",
+    "section_padding_x_mobile": "24px",
+    "card_padding": "32px",
+    "gap_tight": "8px",
+    "gap_default": "16px",
+    "gap_loose": "32px",
+    "gap_section": "96px"
+  },
+  "radius": {
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px",
+    "xl": "24px",
+    "pill": "999px"
+  },
+  "shadow": {
+    "elevated": "0 24px 64px -12px rgba(0,0,0,0.6)",
+    "glow_accent": "0 0 48px rgba(212,255,74,0.15)"
+  },
+  "motion": {
+    "ease_out_expo": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "duration_fast": "200ms",
+    "duration_medium": "400ms",
+    "duration_slow": "800ms"
+  },
+  "layout": {
+    "max_content_width": "1200px",
+    "max_text_width": "680px",
+    "column_count_desktop": 12,
+    "gutter": "24px"
+  }
+}
