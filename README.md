@@ -1,5 +1,9 @@
 # apple-grade-design
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+
+
 A [Claude Code](https://claude.com/claude-code) skill that stacks three design tools into one Apple-grade design workflow.
 
 You design page sections like a small in-house team would: a brief, a layout, real visuals, code, critique, ship. The three tools handle the parts a model does well, and the skill is the loop that keeps them coherent.
