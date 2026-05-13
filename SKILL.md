@@ -91,3 +91,13 @@ If your output drifts toward any of these, restart the section:
 - Purple/blue gradient everything
 - Fake testimonials
 - Icons that look AI-generated
+
+## Related skills
+
+| Skill | Relationship |
+|---|---|
+| [`paid-ads-context`](https://github.com/nickyc1/paid-ads-context) | Reads section 1 (ICP) for the audience parameter, section 5 (brand voice + visual rules) for tokens |
+| [`ad-creative`](https://github.com/nickyc1/ad-creative) | Pairs naturally — copy comes from `ad-creative`, the static-ad brief feeds Nano Banana via this skill |
+| [`voice-profile-kit`](https://github.com/nickyc1/voice-profile-kit) | Provides the copy voice rules this skill enforces during critique |
+| [`customer-research`](https://github.com/nickyc1/customer-research) | Provides the customer language that should NOT pass the swap test (specific to your audience, not generic) |
+| [`paid-channel-recap`](https://github.com/nickyc1/paid-channel-recap) | Optional: rebrand the recap HTML template using this skill before shipping to a major partner |
